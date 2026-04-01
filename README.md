@@ -101,10 +101,10 @@ python3 src/config.py
 
 You should see: `✓ All required paths validated successfully`
 
-## Assignment Tasks
+## Examples Tasks
 
 ---
-
+Attached below are some tasks to walk through the LLMPirate framework.
 ## **Phase 1: Understanding LLM-Based Circuit Transformation**
 
 ### Task 1.1: Analyze Pre-generated Mappings
