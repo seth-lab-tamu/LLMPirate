@@ -146,7 +146,7 @@ Y = NOR(my_N0, my_N1)
 
 ---
 
-### Task 1.2: Generate Your Own LLM Mappings (Optional Advanced Task)
+### Task 1.2: Generate Your Own LLM Mappings
 
 **Objective:** Query an LLM to generate new circuit transformations.
 
@@ -356,12 +356,6 @@ df = pd.DataFrame({
 
 print(df)
 ```
-
-**Questions:**
-- Which tool is most robust?
-- Are there strategies that work against some tools but not others?
-- Can you find patterns in which transformations are most effective?
-
 ---
 
 ## Understanding the Code
@@ -413,7 +407,7 @@ print(df)
 
 ---
 
-## Tips for Success
+## Potential Issues
 
 ### Performance Optimization
 1. **Parallel Processing**: The scripts use multiprocessing. More cores = faster execution.
@@ -442,34 +436,6 @@ print(df)
 
 ---
 
-## Deliverables
-
-1. **Results Analysis Report** (~3-5 pages):
-   - Success rates by LLM and strategy
-   - Detection tool comparison
-   - Circuit size analysis
-   - Visualization of key findings
-
-2. **Code Modifications**:
-   - At least one experiment modification (e.g., new mapping strategy, different threshold)
-   - Document changes in comments
-
-3. **Critical Analysis** (1-2 pages):
-   - Security implications of LLM-based IP piracy
-   - Potential countermeasures
-   - Ethical considerations
-
----
-
-## Grading Rubric
-
-- **Understanding (30%)**: Correct analysis of mappings and transformations
-- **Experimentation (40%)**: Successfully running evaluations and generating results
-- **Analysis (20%)**: Insightful interpretation of results
-- **Critical Thinking (10%)**: Thoughtful discussion of implications
-
----
-
 ## Additional Resources
 
 ### Papers
@@ -494,15 +460,6 @@ This framework is for **educational purposes only**. The techniques demonstrated
 - Any malicious purposes
 
 Violations of academic integrity policies or laws will be reported.
-
----
-
-## Contact and Support
-
-For questions about this assignment:
-1. Check existing log files for error messages
-2. Review the code comments for clarification
-3. Consult the course instructor
 
 ---
 
